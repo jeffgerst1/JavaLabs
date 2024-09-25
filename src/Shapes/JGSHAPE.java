@@ -15,7 +15,6 @@ public class JGSHAPE extends Shape { // Changed to concrete class
     // Constructor to accept the side length
     public JGSHAPE(int side) {
         this.side = side; // Store the side length of the hexagon
-        this.color = Color.BLUE; // Default color
     }
 
     @Override
